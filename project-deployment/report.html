@@ -12143,6 +12143,7 @@ Saving to: ‘../data/aclImdb_v1.tar.gz’
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
+This method does several things including remove html tags, converting all letters to lower case letters, remove non-English words and convert words to their stem. By doing this preprocessing step, we preserve a standard set of words and combine similar words such as plural form and different tenses into one word stem.
 This method also reduce the dimension of the input so that the reviews can be represented by fewer tokens. This can help speed up training process</p>
 
 </div>
